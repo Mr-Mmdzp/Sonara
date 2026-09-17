@@ -34,16 +34,16 @@ function App() {
   });
 };
 console.log(favItems);
- useEffect(() => {
-  fetch("../src/assets/dataBase.json")
+useEffect(() => {
+  fetch("/Sonara/dataBase.json")
     .then(res => res.json())
     .then(data => {
-      setHero(data.heroImage),
-      setProduct(data.products),
-      setfooteri(data.footerImage)
+      setHero(data.heroImage);
+      setProduct(data.products);
+      setfooteri(data.footerImage);
     })
-    .catch(err => console.log(err))
-}, [])
+    .catch(err => console.log(err));
+}, []);
 
   return (
     <>
