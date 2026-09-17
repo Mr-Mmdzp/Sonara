@@ -1,0 +1,337 @@
+.sonara-hero {
+  min-height: calc(100vh - 82px);
+  padding: 80px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 75% 50%,
+      rgba(36, 131, 185, 0.12),
+      transparent 35%
+    ),
+    #07090c;
+}
+
+/* CONTENT */
+
+.hero-content {
+  width: 50%;
+  max-width: 650px;
+  position: relative;
+  z-index: 5;
+}
+
+.hero-label {
+  color: #6bc8ff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.hero-content h1 {
+  margin: 22px 0 20px;
+
+  font-size: clamp(60px, 7vw, 105px);
+  line-height: 0.95;
+  letter-spacing: -5px;
+
+  color: #f4f7fa;
+}
+
+.hero-content h1 span {
+  display: block;
+
+  color: transparent;
+
+  -webkit-text-stroke: 1px #6bc8ff;
+
+  text-shadow:
+    0 0 30px rgba(107, 200, 255, 0.12);
+}
+
+.hero-content p {
+  width: 480px;
+  max-width: 100%;
+
+  color: #8d969f;
+
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* BUTTONS */
+
+.hero-buttons {
+  display: flex;
+  gap: 14px;
+  margin-top: 35px;
+}
+
+.hero-primary,
+.hero-secondary {
+  height: 50px;
+  padding: 0 23px;
+
+  border-radius: 8px;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.hero-primary {
+  border: 1px solid #6bc8ff;
+
+  background: #6bc8ff;
+  color: #061018;
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero-primary span {
+  font-size: 18px;
+}
+
+.hero-primary:hover {
+  box-shadow: 0 0 30px rgba(107, 200, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.hero-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  background: rgba(255, 255, 255, 0.03);
+  color: #dce2e7;
+}
+
+.hero-secondary:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* STATS */
+
+.hero-stats {
+  display: flex;
+  gap: 45px;
+  margin-top: 65px;
+}
+
+.hero-stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.hero-stats strong {
+  font-size: 19px;
+  color: #f4f7fa;
+}
+
+.hero-stats span {
+  font-size: 11px;
+  color: #69737d;
+}
+
+/* VISUAL */
+
+.hero-visual {
+  width: 48%;
+  min-height: 560px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-visual img {
+  width: min(650px, 100%);
+  position: relative;
+  z-index: 3;
+
+  filter:
+    drop-shadow(0 30px 45px rgba(0, 0, 0, 0.7))
+    drop-shadow(0 0 35px rgba(107, 200, 255, 0.12));
+
+  animation: headphoneFloat 5s ease-in-out infinite;
+}
+
+@keyframes headphoneFloat {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-12px) rotate(1deg);
+  }
+}
+
+/* GLOW */
+
+.hero-glow {
+  width: 360px;
+  height: 360px;
+
+  position: absolute;
+
+  background: #1674a5;
+  filter: blur(130px);
+
+  opacity: 0.18;
+
+  border-radius: 50%;
+}
+
+/* SOUND RINGS */
+
+.sound-ring {
+  position: absolute;
+
+  border: 1px solid rgba(107, 200, 255, 0.12);
+
+  border-radius: 50%;
+
+  transform: rotateX(65deg);
+}
+
+.ring-one {
+  width: 500px;
+  height: 500px;
+}
+
+.ring-two {
+  width: 380px;
+  height: 380px;
+}
+
+.ring-three {
+  width: 260px;
+  height: 260px;
+}
+
+/* FLOATING CARD */
+
+.floating-card {
+  position: absolute;
+
+  right: 2%;
+  bottom: 12%;
+
+  width: 190px;
+  padding: 14px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background: rgba(12, 16, 20, 0.72);
+
+  border: 1px solid rgba(255, 255, 255, 0.09);
+
+  border-radius: 12px;
+
+  backdrop-filter: blur(18px);
+
+  z-index: 5;
+}
+
+.card-dot {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #6bc8ff;
+
+  box-shadow: 0 0 12px #6bc8ff;
+}
+
+.floating-card div {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.floating-card small {
+  color: #65707a;
+  font-size: 9px;
+}
+
+.floating-card strong {
+  color: #e9eef2;
+  font-size: 12px;
+}
+
+.card-arrow {
+  color: #6bc8ff;
+  font-size: 16px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .sonara-hero {
+    padding-top: 60px;
+    flex-direction: column;
+  }
+
+  .hero-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-stats {
+    justify-content: center;
+  }
+
+  .hero-visual {
+    width: 100%;
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero-content h1 {
+    font-size: 58px;
+    letter-spacing: -3px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-primary,
+  .hero-secondary {
+    width: 100%;
+  }
+
+  .hero-stats {
+    gap: 20px;
+  }
+
+  .hero-visual {
+    min-height: 350px;
+  }
+
+  .sound-ring {
+    transform: scale(0.7) rotateX(65deg);
+  }
+}

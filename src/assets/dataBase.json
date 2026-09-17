@@ -1,0 +1,166 @@
+{
+  "heroImage": "../src/assets/images/hero-img.png",
+    "footerImage" : "../src/assets/images/logo.png",
+  "products": [
+    {
+      "id": 1,
+      "name": "SONARA X1",
+      "category": "Headphones",
+      "brand": "SONARA",
+      "price": 249,
+      "oldPrice": 299,
+      "rating": 4.9,
+      "reviews": 128,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "description": "Premium wireless headphones with adaptive noise cancellation.",
+      "features": [
+        "Active Noise Cancellation",
+        "40 Hours Battery",
+        "Bluetooth 5.4",
+        "Spatial Audio"
+      ],
+      "inStock": true
+    },
+
+    {
+      "id": 2,
+      "name": "SONARA AirBuds Pro",
+      "category": "Earbuds",
+      "brand": "SONARA",
+      "price": 179,
+      "oldPrice": 219,
+      "rating": 4.8,
+      "reviews": 94,
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=800&q=80",
+      "description": "Compact wireless earbuds designed for powerful everyday audio.",
+      "features": [
+        "Active Noise Cancellation",
+        "28 Hours Battery",
+        "Bluetooth 5.3",
+        "Wireless Charging"
+      ],
+      "inStock": true
+    },
+
+    {
+      "id": 3,
+      "name": "SONARA Pulse 360",
+      "category": "Speakers",
+      "brand": "SONARA",
+      "price": 199,
+      "oldPrice": 249,
+      "rating": 4.7,
+      "reviews": 76,
+      "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+      "description": "Immersive 360-degree wireless speaker with deep bass.",
+      "features": [
+        "360° Sound",
+        "20 Hours Battery",
+        "Bluetooth 5.4",
+        "IPX7 Water Resistance"
+      ],
+      "inStock": true
+    },
+
+    {
+      "id": 4,
+      "name": "SONARA Studio Mic S1",
+      "category": "Microphones",
+      "brand": "SONARA",
+      "price": 159,
+      "oldPrice": 189,
+      "rating": 4.8,
+      "reviews": 61,
+      "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=800&q=80",
+      "description": "Professional USB condenser microphone for studio-quality recording.",
+      "features": [
+        "USB-C",
+        "24-bit Audio",
+        "Cardioid Pattern",
+        "Zero-Latency Monitoring"
+      ],
+      "inStock": true
+    },
+
+    {
+      "id": 5,
+      "name": "SONARA DAC One",
+      "category": "DAC",
+      "brand": "SONARA",
+      "price": 129,
+      "oldPrice": 149,
+      "rating": 4.6,
+      "reviews": 43,
+      "image" : "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&w=800&q=80",
+      "description": "Compact high-resolution DAC designed for detailed and powerful sound.",
+      "features": [
+        "32-bit / 384kHz",
+        "USB-C",
+        "Hi-Res Audio",
+        "Low Distortion"
+      ],
+      "inStock": true
+    },
+
+    {
+      "id": 6,
+      "name": "SONARA X1 Max",
+      "category": "Headphones",
+      "brand": "SONARA",
+      "price": 329,
+      "oldPrice": 379,
+      "rating": 5.0,
+      "reviews": 152,
+      "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
+      "description": "Flagship wireless headphones built for an uncompromising audio experience.",
+      "features": [
+        "Adaptive ANC",
+        "60 Hours Battery",
+        "Bluetooth 5.4",
+        "Spatial Audio"
+      ],
+      "inStock": true
+    },
+
+    {
+      "id": 7,
+      "name": "SONARA Mini Buds",
+      "category": "Earbuds",
+      "brand": "SONARA",
+      "price": 99,
+      "oldPrice": 119,
+      "rating": 4.5,
+      "reviews": 87,
+      "image": "https://images.unsplash.com/photo-1600086827875-a63b01f1335c?auto=format&fit=crop&w=800&q=80",
+      "description": "Small and lightweight earbuds with surprisingly powerful sound.",
+      "features": [
+        "Bluetooth 5.3",
+        "24 Hours Battery",
+        "Touch Controls",
+        "Fast Charging"
+      ],
+      "inStock": true
+    },
+
+    {
+      "id": 8,
+      "name": "SONARA Studio Pro",
+      "category": "Headphones",
+      "brand": "SONARA",
+      "price": 279,
+      "oldPrice": 319,
+      "rating": 4.9,
+      "reviews": 113,
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80",
+      "description": "Professional studio headphones tuned for accurate sound reproduction.",
+      "features": [
+        "Studio Tuning",
+        "Detachable Cable",
+        "50mm Drivers",
+        "High Resolution Audio"
+      ],
+      "inStock": true
+    }
+  ]
+}
+
