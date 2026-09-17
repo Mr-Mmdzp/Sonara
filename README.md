@@ -1,16 +1,88 @@
-# React + Vite
+# SONARA — Premium Audio Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern React-based audio marketplace built with a premium futuristic UI and interactive shopping experience.
 
-Currently, two official plugins are available:
+SONARA is a premium audio gear web application designed around a cinematic dark interface, smooth interactions, and a scalable React component architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project focuses on building a realistic e-commerce experience rather than a simple landing page.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 **[View SONARA Live Demo](YOUR_DEMO_LINK_HERE)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🛍️ Product marketplace
+- 🔎 Product search interface
+- ❤️ Favorites / Wishlist
+- 🛒 Shopping cart
+- 💰 Cart total calculation
+- 📦 Product cards with dynamic data
+- ⭐ Product ratings & reviews
+- 🎧 Audio product categories
+- 📱 Component-based React architecture
+- 🗂️ JSON-based fake database
+- ⚡ Vite-powered development environment
+- 🎨 Premium dark futuristic UI
+
+---
+
+## 🧩 Tech Stack
+
+- **React**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
+- **Vite**
+- **JSON**
+- **Git & GitHub**
+
+---
+
+## 🎧 Product Categories
+
+SONARA includes several audio product categories:
+
+- Headphones
+- Earbuds
+- Speakers
+- Microphones
+- DACs
+- Studio Equipment
+
+---
+
+## 🏗️ Project Structure
+
+```text
+sonara/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── dataBase.json
+│   │
+│   ├── components/
+│   │   ├── header.jsx
+│   │   ├── hero.jsx
+│   │   ├── products.jsx
+│   │   ├── categories.jsx
+│   │   ├── featured.jsx
+│   │   ├── why.jsx
+│   │   ├── reviews.jsx
+│   │   ├── newsletter.jsx
+│   │   └── footer.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
