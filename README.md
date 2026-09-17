@@ -10,7 +10,7 @@ The project focuses on building a realistic e-commerce experience rather than a 
 
 ## 🚀 Live Demo
 
-🔗 **[View SONARA Live Demo](YOUR_DEMO_LINK_HERE)**
+🔗 **[View SONARA Live Demo](https://mr-mmdzp.github.io/Sonara/)**
 
 ---
 
