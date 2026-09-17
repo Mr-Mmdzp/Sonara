@@ -1,6 +1,6 @@
 {
-  "heroImage": "./images/hero-img.png",
-    "footerImage" : "./images/logo.png",
+  "heroImage": "/Sonara/images/hero-img.png",
+    "footerImage" : "/Sonara/images/logo.png",
   "products": [
     {
       "id": 1,
